@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Hotel 1: Example from Figure 1 -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 2 -->
+  <Hotel Rating="4.5">
+    <Name>Marriott Tempe</Name>
+    <Phone>480-966-2000</Phone>
+    <Phone>888-236-2427</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2101</Number>
+      <Street>E Broadway Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 3: No Rating attribute -->
+  <Hotel>
+    <Name>Hilton Phoenix Airport</Name>
+    <Phone>602-997-4000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2435</Number>
+      <Street>S 47th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 4 -->
+  <Hotel Rating="4.3">
+    <Name>Hyatt Place Tempe</Name>
+    <Phone>480-491-1700</Phone>
+    <Phone>888-492-8847</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1413</Number>
+      <Street>W University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 5: No Rating attribute -->
+  <Hotel>
+    <Name>Sheraton Phoenix Airport</Name>
+    <Phone>602-273-7373</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1600</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 6 -->
+  <Hotel Rating="3.8">
+    <Name>Holiday Inn Express Tempe</Name>
+    <Phone>480-820-7500</Phone>
+    <Phone>877-859-5095</Phone>
+    <Phone>480-820-7501</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>5300</Number>
+      <Street>S Priest Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85283</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 7: No Rating attribute -->
+  <Hotel>
+    <Name>Best Western Inn of Tempe</Name>
+    <Phone>480-784-2233</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>670</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 8 -->
+  <Hotel Rating="4.1">
+    <Name>Courtyard Phoenix Tempe</Name>
+    <Phone>480-966-2800</Phone>
+    <Phone>800-321-2211</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2300</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 9 -->
+  <Hotel Rating="4.6">
+    <Name>Renaissance Phoenix Downtown</Name>
+    <Phone>602-333-0000</Phone>
+    <Phone>888-236-2427</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>50</Number>
+      <Street>E Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 10: No Rating attribute -->
+  <Hotel>
+    <Name>Embassy Suites Phoenix</Name>
+    <Phone>602-957-1910</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2630</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 11 -->
+  <Hotel Rating="3.9">
+    <Name>Hampton Inn Phoenix Airport</Name>
+    <Phone>480-897-8900</Phone>
+    <Phone>800-426-7866</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>4234</Number>
+      <Street>S 48th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85040</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
