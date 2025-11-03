@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This file contains 5 intentional errors for validation testing -->
-<!-- ERROR 1: Root element should be "Hotels" but is "Hotel" -->
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd" Rating="4.2">
+<Hotel xmlns="https://matheuarenivas.github.io/CSE445_P4"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://matheuarenivas.github.io/CSE445_P4 Hotels.xsd" Rating="4.2">
 
-  <Name>Westin</Name>
-  <!-- ERROR 3: Missing Phone element (required, minOccurs=1) -->
+  <Name>Hotel 1</Name>
 
-  <!-- ERROR 2: Missing required attribute NearestAirport on Address -->
   <Address>
-    <Number>11</Number>
-    <Street>E 7th St</Street>
-    <City>Tempe</City>
+    <Number>100</Number>
+    <Street>Main St</Street>
+    <City>City 1</City>
     <State>AZ</State>
-    <Zip>85281
-    <!-- ERROR 4: Missing closing tag for Zip -->
+    <Zip>12345
   </Address>
 
-  <!-- ERROR 5: Two Name elements (only one allowed) -->
-  <Name>Westin Hotel</Name>
+  <Name>Hotel 2</Name>
 
 </Hotel>
